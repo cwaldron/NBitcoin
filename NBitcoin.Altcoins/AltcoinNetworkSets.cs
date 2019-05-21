@@ -8,7 +8,7 @@ namespace NBitcoin.Altcoins
 {
 	public class AltNetworkSets
 	{
-		public static BCash BCash { get; } = BCash.Instance;
+		public static BitcoinCash BitcoinCash { get; } = BitcoinCash.Instance;
 		public static BGold BGold { get; } = BGold.Instance;
 		public static Dash Dash { get; } = Dash.Instance;
 		public static Mogwai Mogwai { get; } = Mogwai.Instance;
@@ -41,7 +41,7 @@ namespace NBitcoin.Altcoins
 			yield return Viacoin;
 			yield return Dogecoin;
 			yield return Dystem;
-			yield return BCash;
+			yield return BitcoinCash;
 			yield return BGold;
 			yield return Polis;
 			yield return Monacoin;
